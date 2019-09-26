@@ -8,7 +8,9 @@ I love work with Firebase because it's a platform that allow to modify the app i
 more flexibility and it is also easy.
 Let me know if you want also other projects about Firebase usage.
 
+Firebase documentation: https://firebase.google.com/docs/database/ios/read-and-write
 
+Cocoapods documentation: https://cocoapods.org/pods/FirebaseDatabase
 
 ______________________________________________________________
 
