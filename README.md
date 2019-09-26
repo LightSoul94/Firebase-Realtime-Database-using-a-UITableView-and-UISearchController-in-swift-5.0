@@ -1,7 +1,7 @@
 # Firebase Realtime Database with UITableView and UISearchController in swift 5.0
 This app connect to Firebase Realtime Database and display dinamically all houses on a UITableView. 
 
-There is also a search field and if cell has been select then a new viewcontroller will be displayied 
+There is also a search field and if a cell has been select then a new viewcontroller will be displayied 
 with the website reference (given by firebase database)
 
 I love work with Firebase because it's a platform that allow to modify the app in every moment, giving to the projects 
