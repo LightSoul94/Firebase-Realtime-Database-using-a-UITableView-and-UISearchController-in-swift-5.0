@@ -6,7 +6,7 @@ with the website reference (given by firebase database)
 
 I love work with Firebase because it's a platform that allow to modify the app in every moment, giving to the projects 
 more flexibility and it is also easy.
-Let me know if you want more project about Firebase usage.
+Let me know if you want also other projects about Firebase usage.
 
 
 
