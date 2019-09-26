@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF7486E6B192CEECF687396 /* Pods_Firebase_Realtime_DatabaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8E2CB251F9737CB0636176 /* Pods_Firebase_Realtime_DatabaseTests.framework */; };
+		222589EC233BFE83000AE353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222589EB233BFE83000AE353 /* AppDelegate.swift */; };
+		222589EE233BFE83000AE353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222589ED233BFE83000AE353 /* SceneDelegate.swift */; };
+		222589F0233BFE83000AE353 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222589EF233BFE83000AE353 /* Home.swift */; };
+		222589F3233BFE83000AE353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222589F1233BFE83000AE353 /* Main.storyboard */; };
+		222589F5233BFE84000AE353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222589F4233BFE84000AE353 /* Assets.xcassets */; };
+		222589F8233BFE84000AE353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222589F6233BFE84000AE353 /* LaunchScreen.storyboard */; };
+		22258A03233BFE84000AE353 /* Firebase_Realtime_DatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22258A02233BFE84000AE353 /* Firebase_Realtime_DatabaseTests.swift */; };
+		22258A0E233BFE84000AE353 /* Firebase_Realtime_DatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22258A0D233BFE84000AE353 /* Firebase_Realtime_DatabaseUITests.swift */; };
+		22A2E779233C0516000EF74E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2E778233C0516000EF74E /* TableViewCell.swift */; };
+		22A2E77B233C05C1000EF74E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2E77A233C05C1000EF74E /* DetailViewController.swift */; };
+		22A2E77D233C08BE000EF74E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E77C233C08BE000EF74E /* GoogleService-Info.plist */; };
+		5041F50759F462B6872F4C10 /* Pods_Firebase_Realtime_DatabaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B2F0DD498046642019B108 /* Pods_Firebase_Realtime_DatabaseUITests.framework */; };
+		B6F1430CD6B9CDEF7763BF1E /* Pods_Firebase_Realtime_Database.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF9DC0EAAE9E656DDEDE64C /* Pods_Firebase_Realtime_Database.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222589FF233BFE84000AE353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222589E0233BFE83000AE353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222589E7233BFE83000AE353;
+			remoteInfo = "Firebase Realtime Database";
+		};
+		22258A0A233BFE84000AE353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222589E0233BFE83000AE353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222589E7233BFE83000AE353;
+			remoteInfo = "Firebase Realtime Database";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B2F0DD498046642019B108 /* Pods_Firebase_Realtime_DatabaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Realtime_DatabaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222589E8233BFE83000AE353 /* Firebase Realtime Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Realtime Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222589EB233BFE83000AE353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222589ED233BFE83000AE353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		222589EF233BFE83000AE353 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		222589F2233BFE83000AE353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222589F4233BFE84000AE353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222589F7233BFE84000AE353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222589F9233BFE84000AE353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222589FE233BFE84000AE353 /* Firebase Realtime DatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase Realtime DatabaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22258A02233BFE84000AE353 /* Firebase_Realtime_DatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Realtime_DatabaseTests.swift; sourceTree = "<group>"; };
+		22258A04233BFE84000AE353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22258A09233BFE84000AE353 /* Firebase Realtime DatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase Realtime DatabaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22258A0D233BFE84000AE353 /* Firebase_Realtime_DatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Realtime_DatabaseUITests.swift; sourceTree = "<group>"; };
+		22258A0F233BFE84000AE353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A2E778233C0516000EF74E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		22A2E77A233C05C1000EF74E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		22A2E77C233C08BE000EF74E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		551F77158C0B801251C336DF /* Pods-Firebase Realtime DatabaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime DatabaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime DatabaseUITests/Pods-Firebase Realtime DatabaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89E52A5A9B87180B598226D1 /* Pods-Firebase Realtime DatabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime DatabaseTests.release.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime DatabaseTests/Pods-Firebase Realtime DatabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BF9DC0EAAE9E656DDEDE64C /* Pods_Firebase_Realtime_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Realtime_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99807B9DA115CD748F3FE959 /* Pods-Firebase Realtime Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime Database.release.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime Database/Pods-Firebase Realtime Database.release.xcconfig"; sourceTree = "<group>"; };
+		AB8E2CB251F9737CB0636176 /* Pods_Firebase_Realtime_DatabaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Realtime_DatabaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1A74C659C8B1B9D5A0777A /* Pods-Firebase Realtime Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime Database.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime Database/Pods-Firebase Realtime Database.debug.xcconfig"; sourceTree = "<group>"; };
+		DA363FB47AA0A2981EDA5C52 /* Pods-Firebase Realtime DatabaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime DatabaseTests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime DatabaseTests/Pods-Firebase Realtime DatabaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F916871EA511CEEABAF1C606 /* Pods-Firebase Realtime DatabaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Realtime DatabaseUITests.release.xcconfig"; path = "Target Support Files/Pods-Firebase Realtime DatabaseUITests/Pods-Firebase Realtime DatabaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222589E5233BFE83000AE353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F1430CD6B9CDEF7763BF1E /* Pods_Firebase_Realtime_Database.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222589FB233BFE84000AE353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF7486E6B192CEECF687396 /* Pods_Firebase_Realtime_DatabaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22258A06233BFE84000AE353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5041F50759F462B6872F4C10 /* Pods_Firebase_Realtime_DatabaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222589DF233BFE83000AE353 = {
+			isa = PBXGroup;
+			children = (
+				222589EA233BFE83000AE353 /* Firebase Realtime Database */,
+				22258A01233BFE84000AE353 /* Firebase Realtime DatabaseTests */,
+				22258A0C233BFE84000AE353 /* Firebase Realtime DatabaseUITests */,
+				222589E9233BFE83000AE353 /* Products */,
+				29AD4B460D6446139AA5787A /* Pods */,
+				6524CA9BCDF635E9BBA277AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		222589E9233BFE83000AE353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222589E8233BFE83000AE353 /* Firebase Realtime Database.app */,
+				222589FE233BFE84000AE353 /* Firebase Realtime DatabaseTests.xctest */,
+				22258A09233BFE84000AE353 /* Firebase Realtime DatabaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222589EA233BFE83000AE353 /* Firebase Realtime Database */ = {
+			isa = PBXGroup;
+			children = (
+				222589EB233BFE83000AE353 /* AppDelegate.swift */,
+				222589ED233BFE83000AE353 /* SceneDelegate.swift */,
+				222589EF233BFE83000AE353 /* Home.swift */,
+				22A2E778233C0516000EF74E /* TableViewCell.swift */,
+				22A2E77A233C05C1000EF74E /* DetailViewController.swift */,
+				222589F1233BFE83000AE353 /* Main.storyboard */,
+				222589F6233BFE84000AE353 /* LaunchScreen.storyboard */,
+				222589F4233BFE84000AE353 /* Assets.xcassets */,
+				222589F9233BFE84000AE353 /* Info.plist */,
+				22A2E77C233C08BE000EF74E /* GoogleService-Info.plist */,
+			);
+			path = "Firebase Realtime Database";
+			sourceTree = "<group>";
+		};
+		22258A01233BFE84000AE353 /* Firebase Realtime DatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				22258A02233BFE84000AE353 /* Firebase_Realtime_DatabaseTests.swift */,
+				22258A04233BFE84000AE353 /* Info.plist */,
+			);
+			path = "Firebase Realtime DatabaseTests";
+			sourceTree = "<group>";
+		};
+		22258A0C233BFE84000AE353 /* Firebase Realtime DatabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22258A0D233BFE84000AE353 /* Firebase_Realtime_DatabaseUITests.swift */,
+				22258A0F233BFE84000AE353 /* Info.plist */,
+			);
+			path = "Firebase Realtime DatabaseUITests";
+			sourceTree = "<group>";
+		};
+		29AD4B460D6446139AA5787A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A74C659C8B1B9D5A0777A /* Pods-Firebase Realtime Database.debug.xcconfig */,
+				99807B9DA115CD748F3FE959 /* Pods-Firebase Realtime Database.release.xcconfig */,
+				DA363FB47AA0A2981EDA5C52 /* Pods-Firebase Realtime DatabaseTests.debug.xcconfig */,
+				89E52A5A9B87180B598226D1 /* Pods-Firebase Realtime DatabaseTests.release.xcconfig */,
+				551F77158C0B801251C336DF /* Pods-Firebase Realtime DatabaseUITests.debug.xcconfig */,
+				F916871EA511CEEABAF1C606 /* Pods-Firebase Realtime DatabaseUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6524CA9BCDF635E9BBA277AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF9DC0EAAE9E656DDEDE64C /* Pods_Firebase_Realtime_Database.framework */,
+				AB8E2CB251F9737CB0636176 /* Pods_Firebase_Realtime_DatabaseTests.framework */,
+				18B2F0DD498046642019B108 /* Pods_Firebase_Realtime_DatabaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222589E7233BFE83000AE353 /* Firebase Realtime Database */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22258A12233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime Database" */;
+			buildPhases = (
+				889F7E1539391D1E18F27F34 /* [CP] Check Pods Manifest.lock */,
+				222589E4233BFE83000AE353 /* Sources */,
+				222589E5233BFE83000AE353 /* Frameworks */,
+				222589E6233BFE83000AE353 /* Resources */,
+				32F2167BDE217D4C80FDFDBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase Realtime Database";
+			productName = "Firebase Realtime Database";
+			productReference = 222589E8233BFE83000AE353 /* Firebase Realtime Database.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222589FD233BFE84000AE353 /* Firebase Realtime DatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22258A15233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime DatabaseTests" */;
+			buildPhases = (
+				0F735B35DE1D42D336CAC59B /* [CP] Check Pods Manifest.lock */,
+				222589FA233BFE84000AE353 /* Sources */,
+				222589FB233BFE84000AE353 /* Frameworks */,
+				222589FC233BFE84000AE353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22258A00233BFE84000AE353 /* PBXTargetDependency */,
+			);
+			name = "Firebase Realtime DatabaseTests";
+			productName = "Firebase Realtime DatabaseTests";
+			productReference = 222589FE233BFE84000AE353 /* Firebase Realtime DatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22258A08233BFE84000AE353 /* Firebase Realtime DatabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22258A18233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime DatabaseUITests" */;
+			buildPhases = (
+				B2E25961790D83E8FE0E0236 /* [CP] Check Pods Manifest.lock */,
+				22258A05233BFE84000AE353 /* Sources */,
+				22258A06233BFE84000AE353 /* Frameworks */,
+				22258A07233BFE84000AE353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22258A0B233BFE84000AE353 /* PBXTargetDependency */,
+			);
+			name = "Firebase Realtime DatabaseUITests";
+			productName = "Firebase Realtime DatabaseUITests";
+			productReference = 22258A09233BFE84000AE353 /* Firebase Realtime DatabaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222589E0233BFE83000AE353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Gianluca Caliendo";
+				TargetAttributes = {
+					222589E7233BFE83000AE353 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					222589FD233BFE84000AE353 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 222589E7233BFE83000AE353;
+					};
+					22258A08233BFE84000AE353 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 222589E7233BFE83000AE353;
+					};
+				};
+			};
+			buildConfigurationList = 222589E3233BFE83000AE353 /* Build configuration list for PBXProject "Firebase Realtime Database" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222589DF233BFE83000AE353;
+			productRefGroup = 222589E9233BFE83000AE353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222589E7233BFE83000AE353 /* Firebase Realtime Database */,
+				222589FD233BFE84000AE353 /* Firebase Realtime DatabaseTests */,
+				22258A08233BFE84000AE353 /* Firebase Realtime DatabaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222589E6233BFE83000AE353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222589F8233BFE84000AE353 /* LaunchScreen.storyboard in Resources */,
+				22A2E77D233C08BE000EF74E /* GoogleService-Info.plist in Resources */,
+				222589F5233BFE84000AE353 /* Assets.xcassets in Resources */,
+				222589F3233BFE83000AE353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222589FC233BFE84000AE353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22258A07233BFE84000AE353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F735B35DE1D42D336CAC59B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Realtime DatabaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F2167BDE217D4C80FDFDBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Realtime Database/Pods-Firebase Realtime Database-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Realtime Database/Pods-Firebase Realtime Database-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Realtime Database/Pods-Firebase Realtime Database-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889F7E1539391D1E18F27F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Realtime Database-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E25961790D83E8FE0E0236 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Realtime DatabaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222589E4233BFE83000AE353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222589F0233BFE83000AE353 /* Home.swift in Sources */,
+				22A2E779233C0516000EF74E /* TableViewCell.swift in Sources */,
+				22A2E77B233C05C1000EF74E /* DetailViewController.swift in Sources */,
+				222589EC233BFE83000AE353 /* AppDelegate.swift in Sources */,
+				222589EE233BFE83000AE353 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222589FA233BFE84000AE353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22258A03233BFE84000AE353 /* Firebase_Realtime_DatabaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22258A05233BFE84000AE353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22258A0E233BFE84000AE353 /* Firebase_Realtime_DatabaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22258A00233BFE84000AE353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222589E7233BFE83000AE353 /* Firebase Realtime Database */;
+			targetProxy = 222589FF233BFE84000AE353 /* PBXContainerItemProxy */;
+		};
+		22258A0B233BFE84000AE353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222589E7233BFE83000AE353 /* Firebase Realtime Database */;
+			targetProxy = 22258A0A233BFE84000AE353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222589F1233BFE83000AE353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222589F2233BFE83000AE353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222589F6233BFE84000AE353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222589F7233BFE84000AE353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22258A10233BFE84000AE353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22258A11233BFE84000AE353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22258A13233BFE84000AE353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1A74C659C8B1B9D5A0777A /* Pods-Firebase Realtime Database.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22258A14233BFE84000AE353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99807B9DA115CD748F3FE959 /* Pods-Firebase Realtime Database.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22258A16233BFE84000AE353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA363FB47AA0A2981EDA5C52 /* Pods-Firebase Realtime DatabaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime DatabaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-DatabaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Realtime Database.app/Firebase Realtime Database";
+			};
+			name = Debug;
+		};
+		22258A17233BFE84000AE353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E52A5A9B87180B598226D1 /* Pods-Firebase Realtime DatabaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime DatabaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-DatabaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Realtime Database.app/Firebase Realtime Database";
+			};
+			name = Release;
+		};
+		22258A19233BFE84000AE353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551F77158C0B801251C336DF /* Pods-Firebase Realtime DatabaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime DatabaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-DatabaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase Realtime Database";
+			};
+			name = Debug;
+		};
+		22258A1A233BFE84000AE353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F916871EA511CEEABAF1C606 /* Pods-Firebase Realtime DatabaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2523MAJ24;
+				INFOPLIST_FILE = "Firebase Realtime DatabaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caliendo.Firebase-Realtime-DatabaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase Realtime Database";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222589E3233BFE83000AE353 /* Build configuration list for PBXProject "Firebase Realtime Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22258A10233BFE84000AE353 /* Debug */,
+				22258A11233BFE84000AE353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22258A12233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22258A13233BFE84000AE353 /* Debug */,
+				22258A14233BFE84000AE353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22258A15233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime DatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22258A16233BFE84000AE353 /* Debug */,
+				22258A17233BFE84000AE353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22258A18233BFE84000AE353 /* Build configuration list for PBXNativeTarget "Firebase Realtime DatabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22258A19233BFE84000AE353 /* Debug */,
+				22258A1A233BFE84000AE353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222589E0233BFE83000AE353 /* Project object */;
+}
