@@ -15,5 +15,5 @@ Future features
 ______________________________________________________________
 
 1. A Tab Bar menu will be added to separate houses in rent by houses in sell;
-2. Advanced filters will be added that will allow user to search by price, number of rooms or the classical research for name;
+2. Advanced filters will be added to allow user to search by price, number of rooms or the classical research for name;
 3. More example data will be added to test pagination feature.
