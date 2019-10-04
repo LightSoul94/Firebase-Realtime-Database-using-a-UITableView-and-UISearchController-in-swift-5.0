@@ -14,7 +14,7 @@ Cocoapods documentation: https://cocoapods.org/pods/FirebaseDatabase
 
 ______________________________________________________________
 
-Future features
+Future features:
 ______________________________________________________________
 
 1. A Tab Bar menu will be added to separate houses in rent by houses in sell;
